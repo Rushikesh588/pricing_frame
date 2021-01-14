@@ -1,0 +1,30 @@
+.chart_section {
+  margin: 5px 90px;
+}
+
+.chart_table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.chart_table tbody tr td {
+  color: rgb(44, 42, 42);
+  text-align: center;
+  padding: 0.8rem 1rem;
+}
+
+.chart_table tbody .chart_logo {
+  color: rgb(44, 42, 42);
+  text-align: center;
+  padding: 0.8rem 5rem;
+}
+
+.chart_table tbody tr td:first-child {
+  text-align: left;
+}
+
+.chart_table tbody tr:nth-child(odd) {
+  background: rgb(228, 249, 255);
+}
